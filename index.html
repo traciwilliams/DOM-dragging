@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drag your Name</title>
+	<link rel="stylesheet" href="styles/main.css"/>
+	<script src="scripts/app.js"></script>
+</head>
+<body>this is the body
+	<div class="container"> this is the container
+		<header></header>
+
+	 <div id="div1" ondrop="doTheDrop(event)" ondragover="letDrop(event)">
+
+		<img src="styles/images/green-block.gif" draggable="true" ondragstart="whatToDrag(event)" id="drag1" width="36" height="69">
+	
+	</div>	
+	<div id="div4" ondrop="doTheDrop(event)" ondragover="letDrop(event)">
+
+		<img src="styles/images/blue-block.gif" draggable="true" ondragstart="whatToDrag(event)" id="drag4" width="36" height="69">
+	
+	</div>	
+	<!-- draggable=true makes the element draggable
+	ondragstart attribute calls the whatToDrag function and specifies what needs to be dragged -->
+
+	
+	<!-- the ondrop occurs when a draggable element is dropped on a valid drop target
+	the doTheDrop(event) function occurs when the dragged element is over the drop target -->
+
+	<div id="div2" ondrop="doTheDrop(event)" ondragover="letDrop(event)">div2
+	</div>
+
+	<div id="div3" ondrop="doTheDrop(event)" ondragover="letDrop(event)">div3
+	</div>
+
+
+		<footer></footer>
+	</div><!--end of wrapper div-->
+
+</body>
+</html>
