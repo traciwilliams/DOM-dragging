@@ -85,7 +85,8 @@ body {
 	height: 600px;
 	background-color: white;
 	border: 5px solid red;
-
+	
+	background: cover;
 }
 
 /*======================= 
@@ -123,12 +124,32 @@ DIVS
     // margin: 10px;
     // padding: 10px;
     border: 1px solid black;
-    margin: 200px 0px 0px 35px;
-    background-color: orange;
+    margin: 100px 0px 0px 35px;
+    //background-color: orange;
+    z-index: 2;
 }
 
+
+#div5,
+#div3 {
+    float: left;
+    width: 600px;
+    height: 400px;
+    // margin: 10px;
+    padding: 50px 10px 10px 10px;
+    border: 1px solid black;
+    margin: 100px 0px 0px 35px;
+    background-image: url("images/chalkboard.jpg");
+    background-repeat: no-repeat;
+
+}
+
+
+
 #drag1,
-#drag4 {
+#drag4,
+#drag5,
+#drag6 {
 	background-color: red;
 }
 
