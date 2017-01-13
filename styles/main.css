@@ -120,12 +120,13 @@ DIVS
 #div4 {
     float: left;
     width: 135px;
-    height: 135px;
+    height: 400px;
     // margin: 10px;
     // padding: 10px;
-    border: 1px solid black;
+    //border: 1px solid black;
+    padding-top: 30px;
     margin: 100px 0px 0px 35px;
-    //background-color: orange;
+    background-color: white;
     z-index: 2;
 }
 
@@ -147,10 +148,39 @@ DIVS
 
 
 #drag1,
+#drag2,
+#drag3,
 #drag4,
-#drag5,
-#drag6 {
-	background-color: red;
+#drag6,
+#drag7,
+#drag8,
+#drag9,
+#drag10,
+#drag11,
+#drag12,
+#drag13,
+#drag14,
+#drag15,
+#drag16,
+#drag17,
+#drag18,
+#drag19,
+#drag20,
+#drag21,
+#drag22,
+#drag23,
+#drag24,
+#drag25,
+#drag26,
+#drag27,
+#drag28,
+#drag29,
+#drag30,
+#drag31,
+#drag32 {
+	background-color: #3cb54b;
+	width: 25px;
+	height: 25px;
 }
 
 .nav li {
