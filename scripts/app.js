@@ -1,5 +1,5 @@
 window.onload = function() {
-	console.log ("drag and drop connected")
+	console.log ("drag connected")
 }
 //this function prevents the default handling of the element
 function letDrop (ev) {

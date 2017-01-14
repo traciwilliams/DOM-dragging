@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Drag your Name</title>
+	<title>Name on Chalkboard</title>
 	<link rel="stylesheet" href="styles/main.css"/>
 	<script src="scripts/app.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
 </head>
-<body>this is the body
-	<div class="container"> this is the container
-		<header></header>
+<body>
+	<div class="container"> 
+		<header>Leave your Name on the Chalkboard</header><p></p>
+		<h2>Drag the letters over to the board one by one to spell your name<br>Use the eraser to clear the board</h2>
 
 	 <div id="div1" ondrop="doTheDrop(event)" ondragover="letDrop(event)">
 
@@ -41,7 +44,7 @@
 		<img src="styles/images/blank.png" draggable="true" ondragstart="whatToDrag(event)" id="drag30">
 		<img src="styles/images/blank.png" draggable="true" ondragstart="whatToDrag(event)" id="drag31">
 		<img src="styles/images/blank.png" draggable="true" ondragstart="whatToDrag(event)" id="drag32">
-		<hr>
+		<h6>Extra letters</h6>
 		<img src="styles/images/A.png" draggable="true" ondragstart="whatToDrag(event)" id="drag1">
 		<img src="styles/images/A.png" draggable="true" ondragstart="whatToDrag(event)" id="drag1">
 		<img src="styles/images/A.png" draggable="true" ondragstart="whatToDrag(event)" id="drag1">
@@ -80,13 +83,10 @@
 
 	<div id="div5" ondrop="doTheDrop(event)" ondragover="letDrop(event)">
 	</div>
-	<form>
 
-	<input type="button" value="Reload Page" onClick="window.location.reload()">
-
-	</form>
-
-		<footer></footer>
+	<input id="eraseBoard" type="button" value="Erase Board" onClick="window.location.reload()">
+	
+		<footer>Dragging Letters created by Traci Williams</footer>
 	</div><!--end of wrapper div-->
 
 </body>
